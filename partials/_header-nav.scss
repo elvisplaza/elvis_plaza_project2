@@ -1,0 +1,60 @@
+.header {
+    background:$primaryColor;
+    height:750px;
+}
+.menu__group {
+    padding:0;
+    margin:0;
+    display:flex;
+    justify-content: center;
+    .menu__item__link{
+        @include linkStyle(none);
+        @include fontSize(20);
+        @include textTitles($titleFont);
+    }
+
+    .menu__item {
+        list-style-type: none;
+        padding: 3rem 3rem;
+    }
+
+    .menu__item--home,
+    .menu__item--about {
+        order:-1;
+    }
+    .menu__item__link--title{
+        @include fontSize(42);
+        margin:0;
+        text-transform: uppercase;
+        font-family:'oswald';
+    }
+    .menu__item:first-child {
+        padding:1rem 3rem;
+    }
+}
+.hero-content-section {
+    display:flex;
+}
+.hero-content__image--home-image-1 {
+    box-shadow: 15px 15px 0 white;
+}
+.hero-content__title {
+    margin:auto;
+    @include fontSize(80);
+    @include textTitles($titleFont);
+    display:flex;
+    position:relative;
+    
+}
+.hero-content__title--large {
+    margin:auto;
+}
+
+.hero-content__icon{
+    position: absolute;
+    top: -12px;
+    right: -3rem;
+    font-size: 100rem;
+    width: 27%;
+    transform: rotate(-32deg);
+}
