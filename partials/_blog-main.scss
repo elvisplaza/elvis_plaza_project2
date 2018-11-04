@@ -50,6 +50,9 @@
 
 // ===================== blog___content=================
 
+.main__background--white-shade {
+    padding-bottom:100px;
+}
 .blog__main-content {
     background: white;
     padding:20px;
@@ -135,6 +138,7 @@ label {
 
 .form__button--full-width {
     border:none;
-        @include buttonStyles(none)
+        @include buttonStyles(none);
         width:100%;
 }
+

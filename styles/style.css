@@ -529,6 +529,9 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
 .aside__items {
   padding-left: 15px; }
 
+.main__background--white-shade {
+  padding-bottom: 100px; }
+
 .blog__main-content {
   background: white;
   padding: 20px;
