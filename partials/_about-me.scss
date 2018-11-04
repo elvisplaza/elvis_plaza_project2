@@ -1,5 +1,29 @@
+.about-me__background--whiteshade {
+    background: #f6f6f6;
+}
+.about-me-section {
+    display:flex;
+    justify-content: end;
+    padding: 5rem 0;
+}
+
 .content {
     display:flex;
     flex-direction: column;
-    width:50%;
+    width: 50%;
+    &__title {
+        @include textTitles($titleFont);
+        @include fontSize(42);
+        margin:0;
+    }
+    &__body-text {
+        @include bodyText(black);
+    }
+    &__link {
+        @include buttonStyles($titleFont);
+    }
+
+}
+.page-break_image--full-width {
+    width:100%;
 }

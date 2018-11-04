@@ -1,0 +1,30 @@
+.picture-info {
+    display:flex;
+    flex-direction: column;
+}
+.picture-content {
+    display:flex;
+    &__content {
+        width:40%;
+    }
+}
+
+.picture-content__content__top {
+    padding-left:50px;
+    display:flex;
+    flex-direction:column;
+    justify-content: end;
+
+}
+
+
+
+
+
+
+.picture-content__picture__bottom {
+    order:2;
+}
+.picture-content__picture {
+    // box-shadow:-64px 24px 1px red, 48px 23px 0px black;
+}

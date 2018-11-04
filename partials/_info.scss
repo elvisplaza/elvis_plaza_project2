@@ -1,0 +1,36 @@
+.info__background--whiteshade {
+    background: #f6f6f6;
+}
+.info {
+    display:flex;
+    padding:5rem 0;
+}
+.info__content{
+    display:flex;
+    padding:3rem 0; 
+}
+.info__icon--blue-background {
+    font-size:20px;
+    background:$primaryColor;
+    border: 1px solid $primaryColor;
+    height:50px;
+    width:50px;
+    border-radius: 100%;
+}
+
+.info__icon--icon {
+    transform: translate(70%,60%);
+}
+.info__body {
+    margin-left:1rem;
+}
+
+.info__title{
+    @include textTitles($titleFont);
+    @include fontSize(32);
+    margin:0;
+}
+
+.info__text {
+    @include bodyText(black);
+}

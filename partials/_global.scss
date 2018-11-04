@@ -3,7 +3,7 @@ $titleFont: 'Oswald', sans-serif;
 $bodyTextFont: 'cabin', sans-serif;
 $buttonColor: #f38d8d;
 .wrapper {
-    max-width:1080px;
+    max-width:1300px;
     margin:0 auto;
 }
 @mixin fontSize($sizeValue){
@@ -27,13 +27,17 @@ $buttonColor: #f38d8d;
 }
 
 @mixin buttonStyles($font){
-    @include fontSize(20px);
+    @include fontSize(20);
     @include linkStyle(none);
     font-family: $font;
     text-transform: uppercase;
     background:$buttonColor;
     color:black;
     font-weight:bold;
+    text-align:center;
+    display:block;
+    width:30%;
+
 }
 
 @mixin linkStyle($underline){
@@ -43,6 +47,8 @@ $buttonColor: #f38d8d;
         color:white;
     }
 }
+
+
 
 .about-me-section {
     border: 2px solid limegreen;
@@ -58,4 +64,20 @@ $buttonColor: #f38d8d;
 }
 .page-break_image{
     border:2px solid red;
+}
+
+.picture-info {
+    border:2px solid black;
+}
+
+.picture-content {
+    border:2px solid red;
+}
+
+.picture-content__picture {
+    border:2px solid green;
+}
+
+.picture-content__content {
+    border:2px solid yellow;
 }

@@ -140,7 +140,7 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   box-sizing: border-box; }
 
 .wrapper {
-  max-width: 1080px;
+  max-width: 1300px;
   margin: 0 auto; }
 
 .about-me-section {
@@ -154,6 +154,18 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
 
 .page-break_image {
   border: 2px solid red; }
+
+.picture-info {
+  border: 2px solid black; }
+
+.picture-content {
+  border: 2px solid red; }
+
+.picture-content__picture {
+  border: 2px solid green; }
+
+.picture-content__content {
+  border: 2px solid yellow; }
 
 .header {
   background: #b9dde7;
@@ -229,6 +241,18 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   -ms-transform: rotate(-32deg);
   transform: rotate(-32deg); }
 
+.about-me__background--whiteshade {
+  background: #f6f6f6; }
+
+.about-me-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: end;
+  padding: 5rem 0; }
+
 .content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -238,3 +262,116 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   -ms-flex-direction: column;
   flex-direction: column;
   width: 50%; }
+  .content__title {
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 42px;
+    font-size: 4.2rem;
+    margin: 0; }
+  .content__body-text {
+    font-size: 20px;
+    font-size: 2rem;
+    font: "cabin", sans-serif;
+    color: black;
+    text-align: left;
+    line-height: 32px; }
+  .content__link {
+    font-size: 20px;
+    font-size: 2rem;
+    text-decoration: none;
+    color: black;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    background: #f38d8d;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    width: 30%; }
+    .content__link:hover {
+      color: white; }
+
+.page-break_image--full-width {
+  width: 100%; }
+
+.info__background--whiteshade {
+  background: #f6f6f6; }
+
+.info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 5rem 0; }
+
+.info__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 3rem 0; }
+
+.info__icon--blue-background {
+  font-size: 20px;
+  background: #b9dde7;
+  border: 1px solid #b9dde7;
+  height: 50px;
+  width: 50px;
+  border-radius: 100%; }
+
+.info__icon--icon {
+  -webkit-transform: translate(70%, 60%);
+  -ms-transform: translate(70%, 60%);
+  transform: translate(70%, 60%); }
+
+.info__body {
+  margin-left: 1rem; }
+
+.info__title {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 32px;
+  font-size: 3.2rem;
+  margin: 0; }
+
+.info__text {
+  font-size: 20px;
+  font-size: 2rem;
+  font: "cabin", sans-serif;
+  color: black;
+  text-align: left;
+  line-height: 32px; }
+
+.picture-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+.picture-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .picture-content__content {
+    width: 40%; }
+
+.picture-content__content__top {
+  padding-left: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: end; }
+
+.picture-content__picture__bottom {
+  -webkit-box-ordinal-group: 3;
+  -ms-flex-order: 2;
+  order: 2; }
