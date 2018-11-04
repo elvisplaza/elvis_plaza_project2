@@ -1,0 +1,11 @@
+.copyright {
+    text-align:center;
+    background:#171717;
+    font-family: $bodyTextFont;
+    color:white;
+    font-size:18px;
+    &__text {
+        margin:0;
+        padding:10px 0;
+    }
+}

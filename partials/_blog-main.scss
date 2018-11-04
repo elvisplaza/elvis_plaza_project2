@@ -1,0 +1,140 @@
+
+.aside__boxes {
+    padding-left:30px;
+}
+.page-divider {
+    background:#f6f6f6;
+}
+.aside {
+    width:30%;
+}
+.blog__content {
+    width:calc(70% - 20px);
+    margin-left:20px;
+}
+
+.aside,
+.blog__content {
+    float:left;
+}
+.aside__content {
+    background:white;
+    padding:20px;
+    margin-bottom:20px;
+    // width:90%;
+}
+.aside__content__image {
+    max-width:100%;
+}
+.aside__content__title {
+    @include textTitles($titleFont);
+    @include fontSize(24);
+    margin:20px 0 0 0;
+}
+.aside__body-text--active {
+    text-decoration: none;
+    color:#227284;
+    font-weight:bold;
+}
+.aside__content__body-text {
+    @include bodyText(black);
+}
+
+.aside__group {
+    padding:0 20px;
+    @include bodyText(black);
+}
+.aside__items {
+    padding-left:15px;
+}
+
+// ===================== blog___content=================
+
+.blog__main-content {
+    background: white;
+    padding:20px;
+    border-bottom: 5px solid #227284;
+}
+
+.blog__main-content__title {
+    @include textTitles($titleFont);
+    @include fontSize(32);
+    margin:0;
+}
+.blog__main-content__body-text,
+.blog__main-content__date {
+    @include bodyText(black);
+}
+.blog__comments {
+    margin-top:30px;
+}
+.comments__box {
+    background:white;
+    padding:20px;
+    margin-top:20px;
+    display:flex;
+    @include bodyText(black);
+
+}
+
+.comments__date {
+    margin:0;
+}
+
+.comments__box__content {
+    padding-left:20px;
+}
+
+.comments__box-two {
+    border-bottom: 5px solid #227284;
+}
+
+// ====================== form==============================
+
+.blog__form {
+    margin-top:20px;
+}
+
+.form {
+    display:flex;
+    display:block;
+    flex-direction: column;
+}
+label {
+    display:none;
+}
+.name,
+.email{
+    width:calc(50% - 5px);
+    float:left;
+    padding:15px 0 15px 30px;
+    font-size:20px;
+}
+.email {
+    margin-left:5px;
+}
+
+.form__comment,
+.comment  {
+    width:100%;
+    height:300px;
+    margin:5px 0;
+    padding-right:5px;
+    font-size:20px;
+}
+.comment {
+    padding:20px 0 15px 30px;
+}
+
+.form__button,
+.form__button--full-width {
+    width:100%;
+    padding-right:5px;
+    padding-top:5px;    
+}
+
+.form__button--full-width {
+    border:none;
+        @include buttonStyles(none)
+        width:100%;
+}

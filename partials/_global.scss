@@ -29,7 +29,7 @@ $buttonColor: #f38d8d;
 @mixin buttonStyles($font){
     @include fontSize(20);
     @include linkStyle(none);
-    font-family: $font;
+    font-family: $titleFont;
     text-transform: uppercase;
     background:$buttonColor;
     color:black;
@@ -37,6 +37,7 @@ $buttonColor: #f38d8d;
     text-align:center;
     display:block;
     width:30%;
+    padding: 10px 0;
 
 }
 
@@ -50,34 +51,34 @@ $buttonColor: #f38d8d;
 
 
 
-.about-me-section {
-    border: 2px solid limegreen;
-}
+// .about-me-section {
+//     border: 2px solid limegreen;
+// }
 
-.content {
-    border:2px solid red;
-}
+// .content {
+//     border:2px solid red;
+// }
 
-.page-break {
-    border:2px solid limegreen;
+// .page-break {
+//     border:2px solid limegreen;
 
-}
-.page-break_image{
-    border:2px solid red;
-}
+// }
+// .page-break_image{
+//     border:2px solid red;
+// }
 
-.picture-info {
-    border:2px solid black;
-}
+// .picture-info {
+//     border:2px solid black;
+// }
 
-.picture-content {
-    border:2px solid red;
-}
+// .picture-content {
+//     border:2px solid red;
+// }
 
-.picture-content__picture {
-    border:2px solid green;
-}
+// .picture-content__picture {
+//     border:2px solid green;
+// }
 
-.picture-content__content {
-    border:2px solid yellow;
-}
+// .picture-content__content {
+//     border:2px solid yellow;
+// }

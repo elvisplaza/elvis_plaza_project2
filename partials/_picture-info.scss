@@ -5,26 +5,62 @@
 .picture-content {
     display:flex;
     &__content {
-        width:40%;
+        width:50%;
+    }
+    &__title {
+        @include textTitles($titleFont);
+        @include fontSize(32)
+    }
+    &__body-text {
+        @include bodyText(black)
+    }
+    &__link {
+        @include buttonStyles(none);
     }
 }
-
+.picture-content__title {
+    margin-top:30px;
+}
 .picture-content__content__top {
-    padding-left:50px;
+    padding-left:100px;
+    padding-bottom:30px;
     display:flex;
     flex-direction:column;
     justify-content: end;
-
 }
-
-
-
-
-
-
+.picture-content__content__bottom {
+    padding-right:100px;
+    padding-bottom:30px;
+}
+.picture-content__link--right {
+    float:right;
+}
+.picture-content__picture--left {
+    transform: translate(0, -8%);
+    border:0.5px solid grey;
+    box-shadow: -400px 20px 0 #68b0c1, 20px 20px 0 #68b0c1;
+}
 .picture-content__picture__bottom {
     order:2;
 }
-.picture-content__picture {
-    // box-shadow:-64px 24px 1px red, 48px 23px 0px black;
+.picture-content__picture--right {
+    transform:translate(0,8%);
+    box-shadow: 400px 20px 0 $primaryColor, 20px 20px 0 $primaryColor;
+    border:.5px solid grey;
+}
+// ======================= journey section============================
+.journey {
+    background:#f6f6f6;
+    padding:100px 0;
+}
+.journey__content {
+    display:flex;
+    align-items: center;
+}
+.content__picture{
+    flex:1 0 30%;
+}
+.content__picture--left {
+    box-shadow: 15px 15px #68b0c1;
+    border:.5px solid grey;
 }
