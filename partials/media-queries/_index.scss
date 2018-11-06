@@ -1,4 +1,4 @@
-
+// ================== 2000px width=====================
 @media(min-width:2000px){
     .wrapper {
         max-width:1800px;
@@ -17,6 +17,7 @@
         box-shadow:-600px 20px 0 #68b0c1, 20px 20px 0 #68b0c1
     }
 }
+// ================== 1200px width=====================
 @media (max-width:1200px){
     .wrapper {
         max-width:1080px;
@@ -82,25 +83,25 @@
         padding:50px 0;
     }
 }
-
+// ================== 950px width=====================
 @media(max-width:950px){
     .hero-content__title {
         @include fontSize(60);
     }
 }
-
+// ================== 900px width=====================
 @media(max-width:900px){
     .hero-content__title {
         @include fontSize(50);
     }
 }
-
+// ================== 850px width=====================
 @media(max-width:850px){
     .hero-content__title {
         @include fontSize(40);
     }
 }
-
+// ================== 800px width=====================
 @media(max-width:800px){
     .wrapper {
         max-width:700px;
@@ -129,7 +130,7 @@
         height:100vh;
     }
 }
-
+// ================== 630px width=====================
     @media(max-width:630px){
         .wrapper{
             max-width:500px;
@@ -146,7 +147,7 @@
             padding:3rem 1rem;
         }
     }
-
+// ================== 510px width=====================
     @media(max-width:510px){
         .wrapper {
             max-width:400px;
@@ -198,10 +199,9 @@
         }
          .checkbox__input:checked + .menu{
             display:block;  
-        }
-        
+        } 
     }
-
+// ================== 440px width=====================
     @media(max-width:440px){
         .hero-content__title--large {
             @include fontSize(70)

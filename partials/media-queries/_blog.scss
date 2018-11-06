@@ -1,3 +1,5 @@
+// ================== 650px width=====================
+
 @media(max-width:650px){
     .aside,
     .blog__content {
@@ -46,6 +48,8 @@
     
 }
 
+// ================== 530px width=====================
+
 @media(max-width:530px){
     .wrapper {
         max-width:400px;
@@ -61,7 +65,7 @@
         padding-right:0;
     }
 }
-
+// ================== 340px width=====================
 
  @media(max-width:340px){
     .wrapper {

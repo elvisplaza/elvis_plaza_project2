@@ -1,14 +1,31 @@
+// ========================= global properties and setup =======================
 @import "../partials/setup";
 @import "../partials/global";
-@import "../partials/header-nav";
-@import "../partials/about-me";
-@import "../partials/info";
-@import "../partials/picture-info";
-@import "../partials/gallery";
-@import "../partials/footer";
-@import "../partials/blog-header";
-@import "../partials/blog-main";
-@import "../partials/contact-me";
+
+// ==================== index styling==========================
+@import "../partials/index-styling/header-nav";
+@import "../partials/index-styling/about-me";
+@import "../partials/index-styling/info";
+@import "../partials/index-styling/picture-info";
+@import "../partials/index-styling/gallery";
+@import "../partials/index-styling/footer";
+// ======================== blog styling=======================
+@import "../partials/blog-styling/blog-header";
+@import "../partials/blog-styling/blog-main";
+// ====================== contact-me styling =============================
+@import "../partials/contact-me-styling/contact-me";
+// =============== media quieres==============
 @import "../partials/media-queries/index";
 @import "../partials/media-queries/blog";
 @import "../partials/media-queries/contact";
+
+
+// @import "../partials/header-nav";
+// @import "../partials/about-me";
+// @import "../partials/info";
+// @import "../partials/picture-info";
+// @import "../partials/gallery";
+// @import "../partials/footer";
+// @import "../partials/blog-header";
+// @import "../partials/blog-main";
+// @import "../partials/contact-me";
