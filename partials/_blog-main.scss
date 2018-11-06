@@ -77,7 +77,9 @@
     margin-top:20px;
     display:flex;
     @include bodyText(black);
-
+}
+img.comments__picture--left {
+    width:240px;
 }
 
 .comments__date {
@@ -103,8 +105,10 @@
     display:block;
     flex-direction: column;
 }
-label {
-    display:none;
+.label {
+   visibility: hidden;
+   position:absolute;
+   left:-100000000px;
 }
 .name,
 .email{

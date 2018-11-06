@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
+    <!-- ====================== header used same html as index =========================== -->
     <header class="header__blog">
         <section class="nav-section wrapper">
             <nav class="menu">
@@ -32,15 +33,13 @@
             </div>
         </section>
     </header>
+
+    <!-- ====================  main content =================== -->
     <main class="main__background--white-shade clearfix">
         <div class="background-picture__title wrapper">
             <h2 class="background-picture__title--left">blog</h2>
         </div>
-
-
-
         <section class="page-divider wrapper">
-
             <div class="aside clearfix ">
                 <aside class="aside__boxes">
                     <div class="aside__content aside__content__box-one">
@@ -61,8 +60,8 @@
                     </div>
                 </aside>  
             </div>
-
-
+<!-- ================ use both divs for float and not flex ================== -->
+<!-- ===================== blog content begins======================== -->
             <div class="blog__content clearfix">
                 <div class="blog__main-content">
                     <h4 class="blog__main-content__title">my favourite travel destinations</h4>
@@ -74,6 +73,8 @@
                     <p class="blog__main-content__body-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum sequi iusto nam praesentium veritatis doloremque neque hic esse maxime nulla, optio dicta similique quia! Qui mollitia eos numquam totam rerum. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim illum quo ut ullam porro, natus aliquam? Nostrum nesciunt obcaecati vero, dicta architecto voluptatibus inventore a nobis laudantium minus laborum nihil.</p>
                     <p class="blog__main-content__body-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias labore voluptatum illum obcaecati optio dolorem quibusdam voluptas sed qui quisquam nulla provident nesciunt rerum quae, dicta non dolorum fugit sequi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem deleniti id, est asperiores recusandae fugiat reprehenderit laborum, blanditiis eius deserunt laudantium commodi itaque fugit necessitatibus quibusdam exercitationem culpa inventore perspiciatis. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint vero reprehenderit consequuntur magnam officia fugit ullam architecto, suscipit dolores commodi voluptatibus excepturi fugiat eum tempora totam similique voluptatem neque pariatur. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati eum fugiat beatae ad eos placeat nesciunt voluptatem esse ab, cumque inventore, sit enim sequi sint debitis, accusamus saepe cupiditate fugit!</p>
                 </div>
+
+                <!-- =====================blog comments======================== -->
                 <div class="blog__comments wrapper">
                     <div class="comments__box comments__box-one">
                         <div class="comments__picture">
@@ -90,24 +91,25 @@
                         </div>
                         <div class="comments__box__content">
 
-                            <p class="comments__date">wednesday October 10th, 2018 by Maggie</p>
+                            <p class="comments__date">Wednesday October 10th, 2018 by Maggie</p>
                             <p class="comments__body-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae ad veritatis quam
                                 necessitatibus repellat aspernatur quibusdam ex voluptates ut adipisci, qui ullam, temporibus quod modi ipsam fugit
                                 itaque quaerat. A.</p>
-
                         </div>
                     </div>
                 </div>
+           <!-- =================== beginning of form ===============      -->
+           <!-- ------------- will be used for contact as well-------------- -->
                 <div class="blog__form wrapper">
                     <form action="" class="form">
                         <div class="form__name-email clearfix">
-                            <label for="name">Name</label>
+                            <label class="label" for="name">Name</label>
                             <input type="text" placeholder="Name" class="name">
-                            <label for="name">email address</label>
+                            <label class="label" for="name">email address</label>
                             <input type="text" placeholder="Email-address" class="email">
                         </div>
                         <div class="form__comment">
-                            <label for="name">Name</label>
+                            <label class="label" for="name">Name</label>
                             <textarea type="textarea" placeholder="Comment" class="comment"></textarea>
 
                         </div>
@@ -120,6 +122,8 @@
             </div>
         </section>
     </main>
+        <!-- ================= same copyright html syntax used throughout============ -->
+
     <footer class="copyright copyright__blog">
         <p class="copyright__text">Copyright © 2018 HackerYou </p>
     </footer>

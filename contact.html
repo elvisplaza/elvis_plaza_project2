@@ -11,7 +11,7 @@
         crossorigin="anonymous">
     <link rel="stylesheet" href="styles/style.css">
 </head>
-
+<!-- ====================== header used same html as index =========================== -->
 <body>
     <header class="header__blog header__contact-me">
         <section class="nav-section wrapper">
@@ -33,12 +33,13 @@
             </div>
         </section>
     </header>
+    <!-- ============================= main content======================== -->
     <main class="main__background--white-shade clearfix">
         <div class="wrapper">
             <div class="background-picture__title">
                 <h2 class="background-picture__title--left">contact me</h2>
             </div>
-
+<!-- ======================= aside content ======================= -->
             <aside class="contact-me" id="contact">
                 <div class="contact-me__content">
                     <div class="social-media">
@@ -47,7 +48,8 @@
                             <li class="social-media__item"> <a class="social-media__link" href="#"><i class="fab fa-twitter"></i></a></li>
                             <li class="social-media__item"> <a class="social-media__link" href="#"><i class="fab fa-linkedin-in"></i></a></li>
                             <li class="social-media__item"> <a class="social-media__link" href="#"><i class="fab fa-instagram"></i></a></li>
-                        </ul>
+                        </u>
+   <!-- ================ use float instead of flex=========================                      -->
                     </div>
                     <div class="contact-me__info">
                         <p class="contact-me__info__item">info@email.com</p>
@@ -58,18 +60,18 @@
                     </div>
                 </div>
             </aside>
-
+<!-- ================= form - same html setup from blog ===================== -->
             <div class="blog__form contact-me__form">
                 <form action="" class="form">
                     <div class="form__name-email clearfix">
-                        <label for="name">Name</label>
-                        <input type="text" placeholder="Name" class="name">
-                        <label for="name">email address</label>
-                        <input type="text" placeholder="Email-address" class="email">
+                        <label class="label" for="name">Name</label>
+                        <input type="text" placeholder="Name" id="name" class="name">
+                        <label class="label"for="email">email address</label>
+                        <input type="text" placeholder="Email-address" id="email"class="email">
                     </div>
                     <div class="form__comment">
-                        <label for="name">Name</label>
-                        <textarea type="textarea" placeholder="Comment" class="comment"></textarea>
+                        <label class="label" for="textarea">Name</label>
+                        <textarea type="textarea" placeholder="Comment" id="textarea" class="comment "></textarea>
     
                     </div>
                     <div class="form__button">
@@ -79,6 +81,8 @@
             </div>
         </div>
     </main>
+        <!-- ================= same copyright html syntax used throughout============ -->
+
     <footer class="copyright copyright__blog">
         <p class="copyright__text">Copyright © 2018 HackerYou </p>
     </footer>

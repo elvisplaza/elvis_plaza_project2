@@ -32,6 +32,10 @@
         padding:1rem 3rem;
     }
 }
+.checkbox__input,
+.label__toggle {
+    visibility: hidden;
+}
 .hero-content-section {
     display:flex;
 }
