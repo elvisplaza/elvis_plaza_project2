@@ -1,0 +1,147 @@
+@media (max-width:1200px){
+    .wrapper {
+        max-width:1080px;
+        margin: 0 auto;
+    }
+    .hero-content__title {
+        @include fontSize(70);
+    }
+    .info {
+        padding-bottom:20px;
+    }
+    
+    .content {
+        width:100%;
+        align-items: center;
+        padding-top:10px;
+    }
+    .picture-content{
+        display:block;
+        padding-top:50px;
+    }
+    .picture-content__picture--left,
+    .picture-content__picture--right {
+        box-shadow:none;
+        transform: translate(0,0);
+        margin:0 auto;
+    }
+    .picture-content__content__top,
+    .picture-content__content__bottom {
+        padding:0 20px 0 20px;
+        margin: 0 auto;
+        text-align:center;
+        width:100%;
+    }
+    .picture-content__content__bottom {
+        padding-bottom:50px;
+    }
+    .picture-content__link,
+    .picture-content__link--right {
+        margin:0 auto;
+        float:none;
+    }
+    .picture-content__body-text {
+        text-align:center;
+    }
+    .picture-content__title {
+        margin:0;
+    }
+    .journey {
+        padding:50px 0;
+    }
+    .journey__content {
+        flex-direction: column;
+    }
+    .content__picture--left {
+        box-shadow: none;
+    }
+    .content__content {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .gallery {
+        padding:50px 0;
+    }
+}
+
+@media(max-width:950px){
+    .hero-content__title {
+        @include fontSize(60);
+    }
+}
+
+@media(max-width:900px){
+    .hero-content__title {
+        @include fontSize(50);
+    }
+}
+
+@media(max-width:850px){
+    .hero-content__title {
+        @include fontSize(40);
+    }
+}
+
+@media(max-width:800px){
+    .wrapper {
+        max-width:700px;
+    }
+    .hero-content-section{
+        flex-direction:column;
+        align-items: center;
+        padding-top:50px;
+    }
+    .hero-content__image--home-image-1 {
+       margin:0 auto;
+        width: 70%;
+
+    }
+    .hero-content__title {
+        margin-top:40px;
+        @include fontSize(70);
+    }
+    .hero-content__title--large {
+        padding-right:20px;
+    }
+    .hero-content__icon {
+        right:-1rem;
+    }
+    .header {
+        height:100vh;
+    }
+    // .about-me-section {
+    //     background:white;
+    // }
+    // .info {
+    //     background:white;
+    // }
+
+}
+
+    @media(max-width:630px){
+        .wrapper{
+            max-width:500px;
+        }
+        .about-me__background--whiteshade {
+            background:none;
+        }
+        .info {
+            background:#f6f6f6;
+            display:block;
+        }
+
+        .menu__group .menu__item {
+            padding:3rem 1rem;
+        }
+    }
+
+    @media(max-width:510px){
+        .menu__group .menu__item--home, .menu__group .menu__item--about{
+            order:0;
+        }
+        .menu__group li:not(.menu__item--title) {
+            display:none;
+        }
+        
+    }

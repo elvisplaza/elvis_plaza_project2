@@ -38,17 +38,24 @@ $buttonColor: #f38d8d;
     display:block;
     width:30%;
     padding: 10px 0;
+    cursor: pointer;
 
 }
 
 @mixin linkStyle($underline){
     text-decoration: $underline;
     color:black;
+    transition: color .3s;
     &:hover {
         color:white;
     }
 }
 
+img {
+    max-width:100%;
+    display:block;
+    border:.3px solid grey;
+}
 
 
 // .about-me-section {
