@@ -1,0 +1,33 @@
+@media(max-width:650px){
+   .background-picture__title--contact-me {
+        @include fontSize(50);
+    }
+    .contact-me, 
+    .contact-me__form {
+        float:none;
+        width:100%;
+        margin:0 auto;
+    }
+    .form__comment {
+        padding-right:0;
+    }
+    .comment{
+        padding-right:0;
+    }
+    .email {
+        margin-left:10px;
+    }
+
+}
+
+@media(max-width:420px){
+    .wrapper{
+        max-width:380px;
+    }
+    .background-picture__title--contact-me {
+        @include fontSize(30);
+    }
+    .email {
+        margin-left:0;
+    }
+}

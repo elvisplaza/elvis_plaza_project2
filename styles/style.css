@@ -170,7 +170,8 @@ img {
     font-size: 2rem;
     font-family: "Oswald", sans-serif;
     text-transform: uppercase;
-    font-weight: bold; }
+    font-weight: bold;
+    text-shadow: 0.5px 1px 0px rgba(0, 0, 0, 0.5); }
     .menu__group .menu__item__link:hover {
       color: white; }
   .menu__group .menu__item {
@@ -210,6 +211,7 @@ img {
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
   font-weight: bold;
+  text-shadow: 0.5px 1px 0px rgba(0, 0, 0, 0.5);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -254,6 +256,7 @@ img {
     font-family: "Oswald", sans-serif;
     text-transform: uppercase;
     font-weight: bold;
+    text-shadow: 0.5px 1px 0px rgba(0, 0, 0, 0.5);
     font-size: 42px;
     font-size: 4.2rem;
     margin: 0; }
@@ -281,9 +284,17 @@ img {
     display: block;
     width: 30%;
     padding: 10px 0;
-    cursor: pointer; }
+    cursor: pointer;
+    -webkit-box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.5); }
     .content__link:hover {
       color: white; }
+    .content__link:active {
+      background: #f38d8d;
+      outline: none;
+      -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+      -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+      box-shadow: inset 0px 0px 5px #c1c1c1; }
 
 .page-break_image--full-width {
   width: 100%; }
@@ -323,6 +334,7 @@ img {
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
   font-weight: bold;
+  text-shadow: 0.5px 1px 0px rgba(0, 0, 0, 0.5);
   font-size: 32px;
   font-size: 3.2rem;
   margin: 0; }
@@ -354,6 +366,7 @@ img {
     font-family: "Oswald", sans-serif;
     text-transform: uppercase;
     font-weight: bold;
+    text-shadow: 0.5px 1px 0px rgba(0, 0, 0, 0.5);
     font-size: 32px;
     font-size: 3.2rem; }
   .picture-content__body-text {
@@ -380,9 +393,17 @@ img {
     display: block;
     width: 30%;
     padding: 10px 0;
-    cursor: pointer; }
+    cursor: pointer;
+    -webkit-box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.5); }
     .picture-content__link:hover {
       color: white; }
+    .picture-content__link:active {
+      background: #f38d8d;
+      outline: none;
+      -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+      -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+      box-shadow: inset 0px 0px 5px #c1c1c1; }
 
 .picture-content__title {
   margin-top: 30px; }
@@ -480,6 +501,7 @@ img {
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
   font-weight: bold;
+  text-shadow: 0.5px 1px 0px rgba(0, 0, 0, 0.5);
   font-size: 80px;
   font-size: 8rem;
   -webkit-transform: translateY(-55%);
@@ -521,6 +543,7 @@ img {
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
   font-weight: bold;
+  text-shadow: 0.5px 1px 0px rgba(0, 0, 0, 0.5);
   font-size: 24px;
   font-size: 2.4rem;
   margin: 20px 0 0 0; }
@@ -562,6 +585,7 @@ img {
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
   font-weight: bold;
+  text-shadow: 0.5px 1px 0px rgba(0, 0, 0, 0.5);
   font-size: 32px;
   font-size: 3.2rem;
   margin: 0; }
@@ -668,9 +692,17 @@ img.comments__picture--left {
   width: 30%;
   padding: 10px 0;
   cursor: pointer;
+  -webkit-box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.5);
   width: 100%; }
   .form__button--full-width:hover {
     color: white; }
+  .form__button--full-width:active {
+    background: #f38d8d;
+    outline: none;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+    box-shadow: inset 0px 0px 5px #c1c1c1; }
 
 .contact-me {
   width: 30%;
@@ -720,10 +752,26 @@ img.comments__picture--left {
   font-weight: bold;
   margin-bottom: 10px; }
 
+@media (min-width: 2000px) {
+  .wrapper {
+    max-width: 1800px;
+    margin: 0 auto; }
+  .picture-content {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  .picture-content__content {
+    width: 36%; }
+  .picture-content__picture--right {
+    -webkit-box-shadow: 600px 20px 0 #b9dde7, 20px 20px 0 #b9dde7;
+    box-shadow: 600px 20px 0 #b9dde7, 20px 20px 0 #b9dde7; }
+  .picture-content__picture--left {
+    -webkit-box-shadow: -600px 20px 0 #68b0c1, 20px 20px 0 #68b0c1;
+    box-shadow: -600px 20px 0 #68b0c1, 20px 20px 0 #68b0c1; } }
+
 @media (max-width: 1200px) {
   .wrapper {
-    max-width: 1080px;
-    margin: 0 auto; }
+    max-width: 1080px; }
   .hero-content__title {
     font-size: 70px;
     font-size: 7rem; }
@@ -841,29 +889,49 @@ img.comments__picture--left {
 @media (max-width: 510px) {
   .wrapper {
     max-width: 400px; }
+  .checkbox__input,
+  .label__toggle {
+    visibility: visible; }
   .menu__group .menu__item--home, .menu__group .menu__item--about {
     -webkit-box-ordinal-group: 1;
     -ms-flex-order: 0;
     order: 0; }
-  .menu__group li:not(.menu__item--title) {
-    display: none; }
-  .menu__group {
-    -webkit-box-pack: start;
-    -ms-flex-pack: start;
-    justify-content: start; }
   .content__body-text {
     text-align: center; }
-  .menu {
-    position: relative; }
   .label__toggle {
     position: absolute;
-    right: 10px;
-    bottom: 20px;
+    right: 20px;
+    top: 10px;
     font-size: 35px;
-    font-size: 3.5rem; }
+    font-size: 3.5rem;
+    z-index: 30; }
   .checkbox__input {
     visibility: hidden; }
-  .checkbox__input:checked + .menu__group li {
+  .nav-section {
+    height: 1px; }
+  .menu {
+    display: none; }
+  .menu__group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    background: pink;
+    position: absolute;
+    z-index: 20;
+    width: 100%;
+    height: 100vh;
+    top: 0px;
+    right: 0;
+    bottom: 0;
+    text-align: center; }
+  .checkbox__input:checked + .menu {
     display: block; } }
 
 @media (max-width: 440px) {
@@ -879,3 +947,102 @@ img.comments__picture--left {
   .content__link,
   .picture-content__link {
     width: 50%; } }
+
+@media (max-width: 650px) {
+  .aside,
+  .blog__content {
+    float: none;
+    width: 100%; }
+  .aside__boxes {
+    padding-left: 0;
+    margin: 0 auto; }
+  .wrapper {
+    max-width: 500px; }
+  .aside__content__image {
+    margin: 0 auto; }
+  .menu__group .menu__item {
+    padding-right: 1rem; }
+  .aside__content__title,
+  .blog__main-content__title {
+    text-align: center; }
+  .name,
+  .email {
+    margin-top: 5px; }
+  .main__background--white-shade {
+    padding-bottom: 25px; }
+  .aside {
+    -webkit-transform: translatey(-10%);
+    -ms-transform: translatey(-10%);
+    transform: translatey(-10%); }
+  .blog__content {
+    -webkit-transform: translateY(-2%);
+    -ms-transform: translateY(-2%);
+    transform: translateY(-2%);
+    margin-left: 0; }
+  .form__name-email {
+    margin-top: 5px; }
+  .form__button {
+    padding-right: 0; } }
+
+@media (max-width: 530px) {
+  .wrapper {
+    max-width: 400px; }
+  img.comments__picture--left {
+    width: 100px;
+    margin: 0 auto; }
+  .comments__box {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+  .comment {
+    padding-right: 0; } }
+
+@media (max-width: 340px) {
+  .wrapper {
+    max-width: 300px; }
+  .background-picture__title {
+    font-size: 6rem; }
+  .name,
+  .email,
+  .comment {
+    float: none;
+    width: 99%;
+    margin-left: 0; }
+  .background-picture__title {
+    font-size: 4rem; }
+  .aside {
+    -webkit-transform: translatey(0%);
+    -ms-transform: translatey(0%);
+    transform: translatey(0%); }
+  .blog__content {
+    -webkit-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    transform: translateY(0%); }
+  .email {
+    margin-left: 0; } }
+
+@media (max-width: 650px) {
+  .background-picture__title--contact-me {
+    font-size: 50px;
+    font-size: 5rem; }
+  .contact-me,
+  .contact-me__form {
+    float: none;
+    width: 100%;
+    margin: 0 auto; }
+  .form__comment {
+    padding-right: 0; }
+  .comment {
+    padding-right: 0; }
+  .email {
+    margin-left: 10px; } }
+
+@media (max-width: 420px) {
+  .wrapper {
+    max-width: 380px; }
+  .background-picture__title--contact-me {
+    font-size: 30px;
+    font-size: 3rem; }
+  .email {
+    margin-left: 0; } }

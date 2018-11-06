@@ -24,6 +24,7 @@ $buttonColor: #f38d8d;
     font-family:$fontFamily;
     text-transform: uppercase;
     font-weight:bold;
+    text-shadow: .5px 1px 0px rgba(0,0,0,0.5);
 }
 
 @mixin buttonStyles($font){
@@ -39,6 +40,14 @@ $buttonColor: #f38d8d;
     width:30%;
     padding: 10px 0;
     cursor: pointer;
+    box-shadow:2px 3px 4px rgba(0,0,0,0.5);
+    &:active {
+        background: $buttonColor;
+        outline:none;
+        -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+        -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+        box-shadow: inset 0px 0px 5px #c1c1c1;
+    }
 
 }
 
@@ -56,36 +65,3 @@ img {
     display:block;
     border:.3px solid grey;
 }
-
-
-// .about-me-section {
-//     border: 2px solid limegreen;
-// }
-
-// .content {
-//     border:2px solid red;
-// }
-
-// .page-break {
-//     border:2px solid limegreen;
-
-// }
-// .page-break_image{
-//     border:2px solid red;
-// }
-
-// .picture-info {
-//     border:2px solid black;
-// }
-
-// .picture-content {
-//     border:2px solid red;
-// }
-
-// .picture-content__picture {
-//     border:2px solid green;
-// }
-
-// .picture-content__content {
-//     border:2px solid yellow;
-// }

@@ -15,6 +15,8 @@
     <!-- ====================== header used same html as index =========================== -->
     <header class="header__blog">
         <section class="nav-section wrapper">
+            <label class="label__toggle" for="toggle" name="toggle"><i class="fas fa-bars"></i></label>
+            <input type="checkbox" name="toggle" id="toggle" class="checkbox__input">
             <nav class="menu">
                 <ul class="menu__group">
                     <li class="menu__item menu__item--title">
@@ -63,7 +65,7 @@
 <!-- ================ use both divs for float and not flex ================== -->
 <!-- ===================== blog content begins======================== -->
             <div class="blog__content clearfix">
-                <div class="blog__main-content">
+                <div class="blog__main-content wrapper">
                     <h4 class="blog__main-content__title">my favourite travel destinations</h4>
                     <p class="blog__main-content__date">Monday October 8th 2018 by Harper</p>
                     <p class="blog__main-content__body-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur hic, odio adipisci inventore nihil minus doloribus atque nesciunt nobis reprehenderit earum magni, mollitia recusandae perferendis, totam vero iste. Voluptatibus, adipisci.</p>
