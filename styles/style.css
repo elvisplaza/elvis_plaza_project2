@@ -174,6 +174,8 @@ img {
     text-shadow: 0.5px 1px 0px rgba(0, 0, 0, 0.5); }
     .menu__group .menu__item__link:hover {
       color: white; }
+  .menu__group .menu__item__link--active {
+    color: white; }
   .menu__group .menu__item {
     list-style-type: none;
     padding: 3rem 3rem; }
@@ -240,7 +242,7 @@ img {
   display: flex;
   -webkit-box-pack: end;
   -ms-flex-pack: end;
-  justify-content: end;
+  justify-content: flex-end;
   padding: 5rem 0; }
 
 .content {
@@ -831,6 +833,8 @@ img.comments__picture--left {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center; }
+  .content__body-text {
+    text-align: center; }
   .gallery {
     padding: 50px 0; } }
 

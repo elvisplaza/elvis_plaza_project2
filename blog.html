@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Haper Design</title>
+    <title>Harper Design</title>
     <link href="https://fonts.googleapis.com/css?family=Cabin|Oswald:400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
         crossorigin="anonymous">
@@ -24,7 +24,7 @@
                     </li>
                     <li class="menu__item menu__item--home"><a class="menu__item__link" href="index.html">home</a></li>
                     <li class="menu__item menu__item--about"><a class="menu__item__link" href="index.html#about">about</a></li>
-                    <li class="menu__item"><a class="menu__item__link" href="#blog">blog</a></li>
+                    <li class="menu__item"><a class="menu__item__link menu__item__link--active" href="#blog">blog</a></li>
                     <li class="menu__item"><a class="menu__item__link" href="contact.html">contact</a></li>
                 </ul>
             </nav>
@@ -106,18 +106,16 @@
                     <form action="" class="form">
                         <div class="form__name-email clearfix">
                             <label class="label" for="name">Name</label>
-                            <input type="text" placeholder="Name" class="name">
-                            <label class="label" for="name">email address</label>
-                            <input type="text" placeholder="Email-address" class="email">
+                            <input type="text" placeholder="Name" class="name" id="name">
+                            <label class="label" for="email">email address</label>
+                            <input type="text" id="email" placeholder="Email-address" class="email">
                         </div>
                         <div class="form__comment">
-                            <label class="label" for="name">Name</label>
-                            <textarea type="textarea" placeholder="Comment" class="comment"></textarea>
-
+                            <label class="label" for="textarea">Name</label>
+                            <textarea type="textarea" id="textarea" placeholder="Comment" class="comment"></textarea>
                         </div>
                         <div class="form__button">
                             <button class="form__button--full-width">post comment</button>
-
                         </div>
                         </form>
                 </div>
