@@ -18,7 +18,9 @@
     <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="styles/style.css">
 </head>
+
 <body>
+    <a href="#maincontent" class="skip-link">Skip to main content.</a>
     <!-- ====================== header used same html as index =========================== -->
     <header class="header__blog">
         <section class="nav-section wrapper">
@@ -44,7 +46,7 @@
     </header>
 
     <!-- ====================  main content =================== -->
-    <main class="main__background--white-shade clearfix">
+    <main class="main__background--white-shade clearfix" id="maincontent">
         <div class="background-picture__title wrapper">
             <h2 class="background-picture__title--left">blog</h2>
         </div>
@@ -54,7 +56,9 @@
                     <div class="aside__content aside__content__box-one">
                         <img class="aside__content__image" src="./assets/blog-image-2.jpg" alt="a picture of harper laying on the ground, beside a blue wall ">
                         <h4 class="aside__content__title">about harper</h4>
-                        <p class="aside__content__body-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. lorem ipsum dolor sit amet, consectetur <a href="#" class="aside__body-text--active"> Find out more</a></p>
+                        <p class="aside__content__body-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            lorem ipsum dolor sit amet, consectetur <a href="#" class="aside__body-text--active"> Find
+                                out more</a></p>
                     </div>
                     <div class="aside__content aside__content__box-two">
                         <h4 class="aside__content__title">recent posts</h4>
@@ -67,20 +71,48 @@
                             </ul>
                         </nav>
                     </div>
-                </aside>  
+                </aside>
             </div>
-<!-- ================ use both divs for float and not flex ================== -->
-<!-- ===================== blog content begins======================== -->
+            <!-- ================ use both divs for float and not flex ================== -->
+            <!-- ===================== blog content begins======================== -->
             <div class="blog__content clearfix">
                 <div class="blog__main-content wrapper">
                     <h4 class="blog__main-content__title">my favourite travel destinations</h4>
                     <p class="blog__main-content__date">Monday October 8th 2018 by Harper</p>
-                    <p class="blog__main-content__body-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur hic, odio adipisci inventore nihil minus doloribus atque nesciunt nobis reprehenderit earum magni, mollitia recusandae perferendis, totam vero iste. Voluptatibus, adipisci.</p>
-                    <p class="blog__main-content__body-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quae, nesciunt odit libero repudiandae numquam architecto reiciendis eveniet sint qui voluptates sequi exercitationem, reprehenderit voluptatum similique vitae odio illum voluptas!</p>
-                    <p class="blog__main-content__body-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore non numquam tempore earum eveniet exercitationem nemo neque consectetur tempora totam quae adipisci illum culpa, mollitia ullam ipsa nesciunt sint porro. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo placeat aliquam vitae nihil impedit laudantium rem! Error, autem doloremque? Ipsum ipsam cupiditate repellat voluptatum beatae optio dicta tempore maxime consectetur. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum ullam perspiciatis dicta quo dolores eius. Recusandae, magnam, a itaque nemo earum perferendis voluptates repellat libero porro debitis delectus id. Error!</p>
-                    <p class="blog__main-content__body-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur autem debitis reiciendis voluptates sapiente numquam consequuntur maiores modi esse. </p>
-                    <p class="blog__main-content__body-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum sequi iusto nam praesentium veritatis doloremque neque hic esse maxime nulla, optio dicta similique quia! Qui mollitia eos numquam totam rerum. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim illum quo ut ullam porro, natus aliquam? Nostrum nesciunt obcaecati vero, dicta architecto voluptatibus inventore a nobis laudantium minus laborum nihil.</p>
-                    <p class="blog__main-content__body-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias labore voluptatum illum obcaecati optio dolorem quibusdam voluptas sed qui quisquam nulla provident nesciunt rerum quae, dicta non dolorum fugit sequi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem deleniti id, est asperiores recusandae fugiat reprehenderit laborum, blanditiis eius deserunt laudantium commodi itaque fugit necessitatibus quibusdam exercitationem culpa inventore perspiciatis. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint vero reprehenderit consequuntur magnam officia fugit ullam architecto, suscipit dolores commodi voluptatibus excepturi fugiat eum tempora totam similique voluptatem neque pariatur. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati eum fugiat beatae ad eos placeat nesciunt voluptatem esse ab, cumque inventore, sit enim sequi sint debitis, accusamus saepe cupiditate fugit!</p>
+                    <p class="blog__main-content__body-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Consequatur hic, odio adipisci inventore nihil minus doloribus atque nesciunt nobis
+                        reprehenderit earum magni, mollitia recusandae perferendis, totam vero iste. Voluptatibus,
+                        adipisci.</p>
+                    <p class="blog__main-content__body-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Id quae, nesciunt odit libero repudiandae numquam architecto reiciendis eveniet sint qui
+                        voluptates sequi exercitationem, reprehenderit voluptatum similique vitae odio illum voluptas!</p>
+                    <p class="blog__main-content__body-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Inventore non numquam tempore earum eveniet exercitationem nemo neque consectetur tempora totam
+                        quae adipisci illum culpa, mollitia ullam ipsa nesciunt sint porro. Lorem ipsum dolor, sit amet
+                        consectetur adipisicing elit. Quo placeat aliquam vitae nihil impedit laudantium rem! Error,
+                        autem doloremque? Ipsum ipsam cupiditate repellat voluptatum beatae optio dicta tempore maxime
+                        consectetur. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum ullam perspiciatis
+                        dicta quo dolores eius. Recusandae, magnam, a itaque nemo earum perferendis voluptates repellat
+                        libero porro debitis delectus id. Error!</p>
+                    <p class="blog__main-content__body-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        Pariatur autem debitis reiciendis voluptates sapiente numquam consequuntur maiores modi esse.
+                    </p>
+                    <p class="blog__main-content__body-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Dolorum sequi iusto nam praesentium veritatis doloremque neque hic esse maxime nulla, optio
+                        dicta similique quia! Qui mollitia eos numquam totam rerum. Lorem ipsum dolor sit, amet
+                        consectetur adipisicing elit. Enim illum quo ut ullam porro, natus aliquam? Nostrum nesciunt
+                        obcaecati vero, dicta architecto voluptatibus inventore a nobis laudantium minus laborum nihil.</p>
+                    <p class="blog__main-content__body-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Alias labore voluptatum illum obcaecati optio dolorem quibusdam voluptas sed qui quisquam nulla
+                        provident nesciunt rerum quae, dicta non dolorum fugit sequi. Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Quidem deleniti id, est asperiores recusandae fugiat
+                        reprehenderit laborum, blanditiis eius deserunt laudantium commodi itaque fugit necessitatibus
+                        quibusdam exercitationem culpa inventore perspiciatis. Lorem, ipsum dolor sit amet consectetur
+                        adipisicing elit. Sint vero reprehenderit consequuntur magnam officia fugit ullam architecto,
+                        suscipit dolores commodi voluptatibus excepturi fugiat eum tempora totam similique voluptatem
+                        neque pariatur. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati eum fugiat
+                        beatae ad eos placeat nesciunt voluptatem esse ab, cumque inventore, sit enim sequi sint
+                        debitis, accusamus saepe cupiditate fugit!</p>
                 </div>
 
                 <!-- =====================blog comments======================== -->
@@ -91,24 +123,29 @@
                         </div>
                         <div class="comments__box__content">
                             <p class="comments__date">Tuesday October 9th, 2018 by Maggie</p>
-                            <p class="comments__body-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae ad veritatis quam necessitatibus repellat aspernatur quibusdam ex voluptates ut adipisci, qui ullam, temporibus quod modi ipsam fugit itaque quaerat. A.</p>
+                            <p class="comments__body-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Recusandae ad veritatis quam necessitatibus repellat aspernatur quibusdam ex voluptates
+                                ut adipisci, qui ullam, temporibus quod modi ipsam fugit itaque quaerat. A.</p>
                         </div>
                     </div>
                     <div class="comments__box comments__box-two">
                         <div class="comments__picture">
-                            <img src="./assets/blog-image-4.jpg" alt="a picture of a lady blowing a buble with bubble gum. the bubble gum is pink. the picture just shows her face." class="comments__picture--left">
+                            <img src="./assets/blog-image-4.jpg" alt="a picture of a lady blowing a buble with bubble gum. the bubble gum is pink. the picture just shows her face."
+                                class="comments__picture--left">
                         </div>
                         <div class="comments__box__content">
 
                             <p class="comments__date">Wednesday October 10th, 2018 by Maggie</p>
-                            <p class="comments__body-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae ad veritatis quam
-                                necessitatibus repellat aspernatur quibusdam ex voluptates ut adipisci, qui ullam, temporibus quod modi ipsam fugit
+                            <p class="comments__body-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Recusandae ad veritatis quam
+                                necessitatibus repellat aspernatur quibusdam ex voluptates ut adipisci, qui ullam,
+                                temporibus quod modi ipsam fugit
                                 itaque quaerat. A.</p>
                         </div>
                     </div>
                 </div>
-           <!-- =================== beginning of form ===============      -->
-           <!-- ------------- will be used for contact as well-------------- -->
+                <!-- =================== beginning of form ===============      -->
+                <!-- ------------- will be used for contact as well-------------- -->
                 <div class="blog__form wrapper">
                     <form action="" class="form">
                         <div class="form__name-email clearfix">
@@ -124,15 +161,16 @@
                         <div class="form__button">
                             <button class="form__button--full-width">post comment</button>
                         </div>
-                        </form>
+                    </form>
                 </div>
             </div>
         </section>
     </main>
-        <!-- ================= same copyright html syntax used throughout============ -->
+    <!-- ================= same copyright html syntax used throughout============ -->
 
     <footer class="copyright copyright__blog">
         <p class="copyright__text">Copyright © 2018 HackerYou </p>
     </footer>
 </body>
+
 </html>

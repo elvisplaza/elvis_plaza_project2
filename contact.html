@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -20,7 +20,9 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <!-- ====================== header used same html as index =========================== -->
+
 <body>
+    <a href="#maincontent" class="skip-link">Skip to main content.</a>
     <header class="header__blog header__contact-me">
         <section class="nav-section wrapper">
             <label class="label__toggle" for="toggle" name="toggle"><i class="fas fa-bars"></i></label>
@@ -44,12 +46,12 @@
         </section>
     </header>
     <!-- ============================= main content======================== -->
-    <main class="main__background--white-shade clearfix">
+    <main class="main__background--white-shade clearfix" id="maincontent">
         <div class="wrapper">
             <div class="background-picture__title background-picture__title--contact-me">
                 <h2 class="background-picture__title--left">contact me</h2>
             </div>
-<!-- ======================= aside content ======================= -->
+            <!-- ======================= aside content ======================= -->
             <aside class="contact-me" id="contact">
                 <div class="contact-me__content">
                     <div class="social-media">
@@ -58,8 +60,8 @@
                             <li class="social-media__item"> <a class="social-media__link" href="#"><i class="fab fa-twitter"></i></a></li>
                             <li class="social-media__item"> <a class="social-media__link" href="#"><i class="fab fa-linkedin-in"></i></a></li>
                             <li class="social-media__item"> <a class="social-media__link" href="#"><i class="fab fa-instagram"></i></a></li>
-                        </u>
-   <!-- ================ use float instead of flex=========================                      -->
+                            </u>
+                            <!-- ================ use float instead of flex=========================                      -->
                     </div>
                     <div class="contact-me__info">
                         <p class="contact-me__info__item">info@email.com</p>
@@ -70,19 +72,19 @@
                     </div>
                 </div>
             </aside>
-<!-- ================= form - same html setup from blog ===================== -->
+            <!-- ================= form - same html setup from blog ===================== -->
             <div class="blog__form contact-me__form">
                 <form action="" class="form">
                     <div class="form__name-email clearfix">
                         <label class="label" for="name">Name</label>
                         <input type="text" placeholder="Name" id="name" class="name">
-                        <label class="label"for="email">email address</label>
-                        <input type="text" placeholder="Email-address" id="email"class="email">
+                        <label class="label" for="email">email address</label>
+                        <input type="text" placeholder="Email-address" id="email" class="email">
                     </div>
                     <div class="form__comment">
                         <label class="label" for="textarea">Name</label>
                         <textarea type="textarea" placeholder="Comment" id="textarea" class="comment "></textarea>
-    
+
                     </div>
                     <div class="form__button">
                         <button class="form__button--full-width">post comment</button>
@@ -91,7 +93,7 @@
             </div>
         </div>
     </main>
-        <!-- ================= same copyright html syntax used throughout============ -->
+    <!-- ================= same copyright html syntax used throughout============ -->
 
     <footer class="copyright copyright__blog">
         <p class="copyright__text">Copyright © 2018 HackerYou </p>
